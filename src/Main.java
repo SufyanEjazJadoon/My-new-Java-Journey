@@ -1,3 +1,5 @@
+import com.sun.source.doctree.SummaryTree;
+
 import java.util.Scanner;
 
 public class Main {
@@ -32,5 +34,19 @@ public class Main {
         System.out.println("sum of both numbers");
        System.out.println(sum);
 
+       //Numbers ki percentage nikalay gay
+        System.out.println("Calculate your subjects Percenatage");
+        System.out.println("English");
+float E = sc.nextFloat();
+System.out.println("Urdu");
+float U = sc.nextFloat();
+System.out.println("Math");
+float M = sc.nextFloat();
+ float sumsubjects = E + U + M;
+System.out.println("Sum of all Subjects" );
+System.out.println(sumsubjects);
+
+        float percentage = (sumsubjects / 300) * 100;
+        System.out.println("Percentage: " + percentage);
     }
 }
