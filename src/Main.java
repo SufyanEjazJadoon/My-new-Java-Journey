@@ -48,6 +48,7 @@ System.out.println(sumsubjects);
 
         float percentage = (sumsubjects / 300) * 100;
         System.out.println("Percentage: " + percentage);
+
         int num10 = 10;
         int num20 = 20;
         int num30 = 30;
