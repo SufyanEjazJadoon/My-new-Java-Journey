@@ -23,6 +23,16 @@ public class Operators {
         //int k = x*y/5;
         int k = y*y - (4*x*y)/(2*x);
         System.out.println(k);
+        // Increment and decremnet
+        int A = 20;
+        System.out.println(A++);
+        System.out.println(A);
+        System.out.println(++A);
+        System.out.println(A);
+        //Quiz
+        int B = 7;
+        int C = ++B * 8;
+        System.out.println(C);
 
 
 
