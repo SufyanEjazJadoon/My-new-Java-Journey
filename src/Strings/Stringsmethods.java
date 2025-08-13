@@ -1,4 +1,5 @@
-import javax.xml.transform.Source;
+package Strings;
+
 public class Stringsmethods {
     public static void main(String[] args) {
         String name = "Labubu";

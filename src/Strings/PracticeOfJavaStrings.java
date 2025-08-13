@@ -1,3 +1,5 @@
+package Strings;
+
 public class PracticeOfJavaStrings {
     public static void main(String[] args) {
         //problem 1

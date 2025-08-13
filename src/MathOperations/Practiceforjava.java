@@ -1,3 +1,4 @@
+package MathOperations;
 
 import java.util.Scanner;
 

@@ -1,5 +1,5 @@
-import javax.swing.*;
-import java.time.DayOfWeek;
+package Conditions;
+
 import java.util.Scanner;
 
 public class PracticeOfConditionsSwitches {
