@@ -68,7 +68,6 @@ public class RockPaperGame {
                 System.out.println("Computer wins this round!\n");
                 computerScore++;
             }
-
             System.out.printf("Score -> You: %d | Computer: %d | Ties: %d%n%n",
                     playerScore, computerScore, ties);
         }
