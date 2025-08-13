@@ -46,6 +46,13 @@ for ( int c1 = 1; c1 <= 10; c1 ++) {
         }
 
         // Decrementing for loop
-
+        System.out.println("numbers from 10 to 1");
+for (int c1 = 10; c1 > 0; c1 --){
+    System.out.println(c1);
 }
+        System.out.println("First 5 natural numbers in reverse order");
+for (int d = 5; d > 0; d --){
+    System.out.println(d);
+}
+    }
 }
