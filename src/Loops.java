@@ -34,5 +34,18 @@ public class Loops {
             c ++;
         }while (c <= 21);
 
+        // for loop
+        System.out.println("for Loop");
+for ( int c1 = 1; c1 <= 10; c1 ++) {
+            System.out.println(c1);
+        }
+// generate first 5 odd number
+        System.out.println("5 odd number");
+        for (int i = 0; i < 5; i ++ ){
+            System.out.println(2*i+1);
+        }
+
+        // Decrementing for loop
+
 }
 }
