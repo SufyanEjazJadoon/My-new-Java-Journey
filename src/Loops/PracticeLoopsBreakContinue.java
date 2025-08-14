@@ -14,6 +14,17 @@ public class PracticeLoopsBreakContinue {
                     System.out.println(); // next line par jana
                 }
 // Problem 2
+int sum = 0;
+                int i = 5;
+                int n = 0;
+                while (i>n){
+                    sum = sum + (2*n);
+                    n++;
+                }
+        System.out.println("sum of first 5 Even number");
+        System.out.println(sum);
+
+        //Problem 3
 
 
     }
