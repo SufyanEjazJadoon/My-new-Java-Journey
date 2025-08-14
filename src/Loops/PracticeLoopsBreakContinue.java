@@ -24,9 +24,10 @@ int sum = 0;
         System.out.println("sum of first 5 Even number");
         System.out.println(sum);
 
-        //Problem 3
-
-
+        //Problem 3 // make a "5 table"
+        int n1 = 5;
+        for (int i1=1; i1<=10; i1++){
+            System.out.printf("%d X %d = %d\n",n1, i1, n1 * i1);
+        }
     }
-
 }
