@@ -40,5 +40,18 @@ int sum = 0;
         for (int i2 = 10; i2 >= 1; i2--){
             System.out.printf("%d X %d = %d\n",n2,i2,n2 * i2);
         }
+    //Problem 5
+        // Factorial of 5
+        System.out.println("");
+        System.out.println("'Factorial of 5'");
+
+        int n3 = 5;
+        int i3 = 1;
+        int factorial = 1;
+        while (i3 <= n3){
+            factorial *=i3;
+            i3++;
+        }
+        System.out.println(factorial);
     }
 }
