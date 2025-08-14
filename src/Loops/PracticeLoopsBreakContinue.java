@@ -4,18 +4,18 @@ public class PracticeLoopsBreakContinue {
     public static void main(String[] args) {
 
         //Problem 1
-        int n = 4;
-        for (int i=n; i>0; i--){
-            for (int j=0; j<i; j++){
-                System.out.print("*");
-        }
-        System.out.print("\n");
 
-            //Problem 2
+                int a = 4; // total stars wali line ki length (n)
 
-
+                for (int b = a; b > 0; b--) { // outer loop: line ka number
+                    for (int c = 0; c < b; c++) { // inner loop: stars print karna
+                        System.out.print("*");
+                    }
+                    System.out.println(); // next line par jana
+                }
+// Problem 2
 
 
     }
-    }
+
 }
