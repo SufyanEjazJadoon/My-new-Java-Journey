@@ -25,6 +25,15 @@ isInArray = true;
     else {
             System.out.println("This value is not present in th array");
         }
+
+    //Problem 3
+        float [] marks1 = { 45.7f, 67.8f, 63.4f, 99.2f, 100.0f};
+        float sum1 = 0;
+        for (float elementss:marks1){
+            sum1 = sum1 + elementss;
+        }
+        System.out.println("The Value of average marks is" + sum1/marks1.length);
+
     }
 
 }
