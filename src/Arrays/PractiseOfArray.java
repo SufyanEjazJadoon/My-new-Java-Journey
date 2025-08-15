@@ -97,6 +97,23 @@ public class PractiseOfArray {
       }
                 System.out.println("The maximum element is " + max);
 
-
+      //Problem 7
+        //check Array is sorted or not
+        System.out.println("");
+        System.out.println("Check Array is sorted or not");
+        boolean isSorted = true;
+        int [] arr2 = {10,20,30,40,50,60};
+        for (int i=0; i<arr2.length-1; i++){
+            if (arr[i]>arr2 [i + 1]){
+                isSorted = false;
+                break;
+            }
+        }
+if (isSorted){
+    System.out.println("The program is sorted");
+}
+else {
+    System.out.println("This program is not sorted");
+}
     }
 }
