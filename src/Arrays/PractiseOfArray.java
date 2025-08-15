@@ -69,7 +69,7 @@ public class PractiseOfArray {
         }
 
 
-        //
+        //Reverse the order (important)
         System.out.println("new reverse");
         int[] arr = {1, 2, 3, 4, 5, 6};
         int l = arr.length;
@@ -85,5 +85,18 @@ public class PractiseOfArray {
         for (int element : arr) {
             System.out.print(element + " ");
         }
+        System.out.println(" ");
+        //problem 6
+        //Find maximum element in array
+        int [] arr1 = {20,40,60,80,100};
+        int max = 0;
+      for (int e: arr1) {
+          if (e > max) {
+              max = e;
+          }
+      }
+                System.out.println("The maximum element is " + max);
+
+
     }
 }
