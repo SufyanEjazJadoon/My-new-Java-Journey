@@ -59,6 +59,31 @@ public class PractiseOfArray {
             }
             System.out.println(" ");
         }
-    }
+        // problem 5
+        //Reverse an array
+        System.out.println("");
+        System.out.println("Reverse a array");
+        int[] marks2 = {12, 13, 14, 15, 16, 17};
+        for (int i1 = marks2.length - 1; i1 > 0; i1--) {
+            System.out.println(marks2[i1]);
+        }
 
+
+        //
+        System.out.println("new reverse");
+        int[] arr = {1, 2, 3, 4, 5, 6};
+        int l = arr.length;
+        int n = Math.floorDiv(l, 2);
+        int temp;
+        for (int i=0; i<n; i++) {
+            //swap a[i] & a[l-1-i]
+            temp = arr[i];
+            arr[i] = arr[l-i-1];
+            arr[l-i-1] = temp;
+
+        }
+        for (int element : arr) {
+            System.out.print(element + " ");
+        }
+    }
 }
