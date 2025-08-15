@@ -33,6 +33,12 @@ public class Array {
             System.out.println(marks2[i]);
         }
 
+        //Displaying array using for each loop
+        System.out.println("Printing using for-each loop");
+        for (int element: marks2){
+            System.out.println(element);
+        }
+
 
 
 
