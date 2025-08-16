@@ -2,7 +2,7 @@ package Arrays;
 
 public class Array {
     public static void main(String[] args) {
-        //Array!
+        //Array! 
         //Sum of 5 students using array
         int [] markss = new int[5];
         markss[0] = 90;
