@@ -2,6 +2,12 @@ package Strings;
 
 public class Stringsmethods {
     public static void main(String[] args) {
+        String a = new String("abc");
+        String b = new String("abc");
+        System.out.println("a = " + a + " b = " + b);
+        System.out.println("  output is " + a == b);
+        System.out.println(a.equals(b));
+
         String name = "Labubu";
 
         //cheak the length by using strings
@@ -10,7 +16,7 @@ public class Stringsmethods {
         System.out.println(name);
 
         // convert all capital letters into lower
-String lstring = name.toLowerCase();
+        String lstring = name.toLowerCase();
         System.out.println(lstring);
 
         // now we convert all lowercase to uppar case mean in capital by using string
@@ -27,11 +33,11 @@ String lstring = name.toLowerCase();
 
         // we use substring. that subtract the number of word that we write in box
         System.out.println(name.substring(3));
-        System.out.println(name.substring(1,2));
+        System.out.println(name.substring(1, 2));
 
         // replace string is use to replace a words into new given word
-        System.out.println(name.replace('b','l'));
-        System.out.println(name.replace("bubu","gugu"));
+        System.out.println(name.replace('b', 'l'));
+        System.out.println(name.replace("bubu", "gugu"));
 
         //startsWith string is use to cheak which letter is on start
         System.out.println(name.startsWith("La"));
@@ -55,7 +61,6 @@ String lstring = name.toLowerCase();
         //escape sequece are the different symbols use for different specific work
 
         System.out.println("i am labubu");
-
 
 
     }
