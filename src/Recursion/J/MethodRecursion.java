@@ -1,6 +1,6 @@
-package Recursion.Recursion;
+package Recursion.J;
 
-public class Java {
+public class MethodRecursion {
 
         //Recursion.
         //A function in Java call itself.
@@ -31,7 +31,6 @@ public class Java {
             return product;
         }
     }
-    
         public static void main(String[] args) {
         int n = 5;
             System.out.println("The value of factorial n is: " + factorial( n) );
