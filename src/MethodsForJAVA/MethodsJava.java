@@ -1,6 +1,6 @@
 package MethodsForJAVA;
 
-public class Methods {
+public class MethodsJava {
     /*Methods" of java.
     Method ek chhota function hota hai jo code ka ek specific kaam karta hai.
     Static method.
