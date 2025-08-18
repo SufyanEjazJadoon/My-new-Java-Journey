@@ -2,7 +2,7 @@ package Revision;
 
 import java.util.Scanner;
 
-public class DataTypes {
+public class DataTypesCh1 {
     public static void main(String[] args) {
         //Variables.
         int Age = 10;
