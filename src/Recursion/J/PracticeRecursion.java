@@ -14,7 +14,6 @@ public class PracticeRecursion {
             System.out.print(fibonachi(i) + " ");
         }
         System.out.println(" ");
-        
         //Star Triangle
         int a = 4;
         for (int b = 1; b <= a; b++) {
