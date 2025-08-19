@@ -20,5 +20,10 @@ public class QuestionsForCh3 {
             System.out.println("They have not any spaces");
         }
 
+        //convert in  letter format by using escape sequence
+        String name = "Hello,\nMy name is Sufyan.\nThank you";
+        System.out.println(name);
+
+
     }
 }
