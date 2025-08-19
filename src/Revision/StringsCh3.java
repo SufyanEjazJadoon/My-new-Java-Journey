@@ -49,5 +49,28 @@ public class StringsCh3 {
 
         //agr case ko ignore kr k cheak krna ho to
         System.out.println(name.equalsIgnoreCase("sufyan ejaz jadoon"));
+
+        //Escape sequence.
+        //new line k liya.\n
+        System.out.println("My name is\nSufyan");
+
+        //extra space k liya.\t
+        System.out.println("hey\tSufyan");
+
+        //double quotes inside string. \"
+        System.out.println("i love \"red\"");
+
+        //age single quotes dalnay ho to. \'
+        System.out.println("i am an \'ordinary man\'");
+
+        //bakslash agr show krwani hai to.\\
+        System.out.println("hey\\cute\\");
+
+        //letter replace ho jaye ga,\r
+        System.out.println("sufyan\rkhan");
+
+        //pichla ek character htanay k liya
+        System.out.println("I am D\bevil,");
+
     }
 }
