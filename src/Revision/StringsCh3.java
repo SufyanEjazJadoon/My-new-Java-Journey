@@ -29,7 +29,7 @@ public class StringsCh3 {
         //shuru ore akhir k letters remove krnay k liya.
 
         //ksi b word ko replace krnay k liya
-        System.out.println(name.replace('J','G'));
+        System.out.println(name.replace('J', 'G'));
 
         //age check krna ho k letter kis alphabet say start hua hai. true ya false
         System.out.println(name.startsWith(" SUFYAN"));
