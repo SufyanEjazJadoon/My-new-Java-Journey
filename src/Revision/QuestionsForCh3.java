@@ -6,6 +6,8 @@ public class QuestionsForCh3 {
         //Write a java program to convert string to Lowercase
         System.out.println(school.toLowerCase());
 
+        //replace spaces with underscore
+        System.out.println(school.replace(' ','_'));
         
     }
 }
