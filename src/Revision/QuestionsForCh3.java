@@ -8,6 +8,10 @@ public class QuestionsForCh3 {
 
         //replace spaces with underscore
         System.out.println(school.replace(' ','_'));
-        
+
+        //write a sentence and add "" and space through escape sequence in string
+        System.out.println("\"Dear Ayyan\tThanks alot\"");
+
+
     }
 }
