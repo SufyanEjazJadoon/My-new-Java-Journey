@@ -26,5 +26,16 @@ markss = new int[5];
         markss[3] = 41;
         markss[4] = 51;
         System.out.println(markss[4]);
+        System.out.println();
+
+    //Array length
+        System.out.println("Check the length of array:");
+        System.out.println("Length of array " + markss.length);
+
+        //Displaying of arrays.
+        System.out.println("All arrays: ");
+        for (int i = 0; i<markss.length;i++)
+            System.out.println(markss[i]);
+
     }
 }
