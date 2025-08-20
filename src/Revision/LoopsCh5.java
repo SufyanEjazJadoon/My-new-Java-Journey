@@ -18,5 +18,28 @@ public class LoopsCh5 {
             System.out.println(b);
             b--;
         }
+        //do while loop
+
+        System.out.println(" ");
+        System.out.println("do whileAscending order");
+        int c = 1;
+        do {
+            System.out.println(c);
+            c++;
+        }while (c<=10);
+
+        System.out.println(" ");
+        int d = 5;
+        do {
+            System.out.println(d);
+            d++;
+        }while (d <=15);
+
+        System.out.println("Do while descending order");
+        int e = 10;
+        do {
+            System.out.println(e);
+        e--;
+        }while (e >=1);
     }
 }
