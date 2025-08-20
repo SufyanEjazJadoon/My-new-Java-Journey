@@ -41,5 +41,24 @@ public class LoopsCh5 {
             System.out.println(e);
         e--;
         }while (e >=1);
+
+        //for loop
+        System.out.println(" ");
+        System.out.println("for loop Ascending order");
+        for (int b1 = 1; b1<=10; b1++){
+            System.out.println(b1);
+        }
+
+        System.out.println(" ");
+
+        System.out.println("for loop descending order");
+        for (int a1 = 10; a1 >=0; a1--){
+            System.out.println(a1);
+        }
+        System.out.println("first five odd numbers");
+        int n = 5;
+        for (int i = 0; i <= n; i++){
+            System.out.println(2*i-1);
+        }
     }
 }
