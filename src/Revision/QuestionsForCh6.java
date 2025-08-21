@@ -15,5 +15,24 @@ public class QuestionsForCh6 {
                         sum = sum + marks[i];
         }
         System.out.println("Sum of arrays" + sum );
+        System.out.println();
+
+    //find given Integer is Present or not.
+        float[] markss = {12.2f, 13.2f, 14.3f, 15.4f, 16.5f, 17.6f};
+        float num = 13.2f;
+        boolean isInArray = false;
+
+        for (float elements : markss) {
+            if (Math.abs(num - elements) < 0.0001f) {  // tolerance check
+                isInArray = true;
+                break;
+            }
+        }
+
+        if (isInArray) {
+            System.out.println(num + " is in the array");
+        } else {
+            System.out.println(num + " is NOT in the array");
+        }
     }
 }
