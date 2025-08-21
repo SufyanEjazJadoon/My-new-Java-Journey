@@ -12,12 +12,12 @@ public class QuestionsForCh6 {
         int sum = 0;
         for (int i = 0; i < marks.length; i++) {
             System.out.println(marks[i]);
-                        sum = sum + marks[i];
+            sum = sum + marks[i];
         }
-        System.out.println("Sum of arrays" + sum );
+        System.out.println("Sum of arrays" + sum);
         System.out.println();
 
-    //find given Integer is Present or not.
+        //find given Integer is Present or not.
         float[] markss = {12.2f, 13.2f, 14.3f, 15.4f, 16.5f, 17.6f};
         float num = 13.2f;
         boolean isInArray = false;
@@ -34,7 +34,7 @@ public class QuestionsForCh6 {
         } else {
             System.out.println(num + " is NOT in the array");
         }
-   // 2x3 matrix
+        // 2x3 matrix
         System.out.println(" ");
         int[][] mat1 = {{1, 2, 3},
                 {4, 5, 6}};
@@ -49,7 +49,11 @@ public class QuestionsForCh6 {
                 System.out.println(" ");
             }
         }
-
-
+        System.out.println();
+//Reverse an array
+        int[] marks1 = {10, 11, 12, 13, 14, 15};
+        for (int i1 = marks1.length - 1; i1 >= 0; i1--) {
+            System.out.println(marks1[i1]);
+        }
     }
 }
