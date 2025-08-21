@@ -55,5 +55,16 @@ public class QuestionsForCh6 {
         for (int i1 = marks1.length - 1; i1 >= 0; i1--) {
             System.out.println(marks1[i1]);
         }
+        System.out.println( );
+    //Find maximum value
+        int [] arr1 = {20,40,60,80,100};
+        int max = 0;
+        for (int e: arr1) {
+            if (e > max) {
+                max = e;
+            }
+        }
+        System.out.println("The maximum element is " + max);
+
     }
 }
