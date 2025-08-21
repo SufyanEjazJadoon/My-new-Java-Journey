@@ -55,16 +55,32 @@ public class QuestionsForCh6 {
         for (int i1 = marks1.length - 1; i1 >= 0; i1--) {
             System.out.println(marks1[i1]);
         }
-        System.out.println( );
-    //Find maximum value
-        int [] arr1 = {20,40,60,80,100};
+        System.out.println();
+        //Find maximum value
+        int[] arr1 = {20, 40, 60, 80, 100};
         int max = 0;
-        for (int e: arr1) {
+        for (int e : arr1) {
             if (e > max) {
                 max = e;
             }
         }
         System.out.println("The maximum element is " + max);
-
+        System.out.println();
+        // Array is sorted or not
+        System.out.println("");
+        System.out.println("Check Array is sorted or not");
+        boolean isSorted = true;
+        int[] arr2 = {10, 20, 30, 40, 50, 60};
+        for (int i2 = 0; i2 < arr2.length - 1; i2++) {
+            if (arr2[i2] > arr2[i2 + 1]) {
+                isSorted = false;
+                break;
+            }
+        }
+        if (isSorted) {
+            System.out.println("The program is sorted");
+        } else {
+            System.out.println("This program is not sorted");
+        }
     }
 }
