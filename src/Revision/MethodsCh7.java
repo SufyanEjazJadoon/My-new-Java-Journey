@@ -99,7 +99,15 @@ static int sum(int ...arr){
         //recursion Using loop
         System.out.println("The value of n Using loop recursion is = "+ factorial_iterative(n));
 
+        //quick quiz making triangle
+                int n1 = 5;  // number of rows
 
+                for (int i = 1; i <= n1; i++) {   // outer loop = rows
+                    for (int j = 1; j <= i; j++) { // inner loop = stars
+                        System.out.print("* ");
+                    }
+                    System.out.println(); // next line
+                }
 
     }
 }
