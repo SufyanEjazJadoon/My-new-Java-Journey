@@ -49,10 +49,19 @@ static int sum(int ...arr){
             return n * factorial(n-1);
         }
     }
-    //
-
-
-
+    //        Recursion method Using loop
+    static int factorial_iterative(int n){
+        if (n == 0 || n == 1){
+            return 1;
+        }
+        else {
+            int product = 1;
+            for (int i = 1; i <=n; i++){
+                product*=1;
+            }
+            return product;
+        }
+    }
     public static void main(String[] args) {
         //Methods
         int a = 10;
@@ -86,5 +95,11 @@ static int sum(int ...arr){
         //Recursion method
         int n = 4;
         System.out.println("The value of n is = " + factorial(n));
+
+        //recursion Using loop
+        System.out.println("The value of n Using loop recursion is = "+ factorial_iterative(n));
+
+
+
     }
 }
