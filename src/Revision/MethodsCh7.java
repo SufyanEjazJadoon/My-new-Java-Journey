@@ -57,7 +57,7 @@ static int sum(int ...arr){
         else {
             int product = 1;
             for (int i = 1; i <=n; i++){
-                product*=1;
+                product*=i;
             }
             return product;
         }
