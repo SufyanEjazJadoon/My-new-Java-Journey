@@ -40,6 +40,19 @@ static int sum(int ...arr){
         System.out.println("Harry son " + a + " years ");
         System.out.println("Harry sister " + b + " years ");
     }
+
+    //Recursion.
+    static int factorial(int n){
+        if (n == 0 || n == 1){
+            return 1;
+        }else {
+            return n * factorial(n-1);
+        }
+    }
+    //
+
+
+
     public static void main(String[] args) {
         //Methods
         int a = 10;
@@ -69,5 +82,9 @@ static int sum(int ...arr){
       //Varargs
         System.out.println("The sum of 10,20,30 is = "+sum(10,20,30));
         System.out.println("The sum of 100,200,303 is = "+ sum(100,200,303));
+
+        //Recursion method
+        int n = 4;
+        System.out.println("The value of n is = " + factorial(n));
     }
 }
