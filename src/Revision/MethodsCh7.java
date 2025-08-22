@@ -68,5 +68,6 @@ static int sum(int ...arr){
 
       //Varargs
         System.out.println("The sum of 10,20,30 is = "+sum(10,20,30));
+        System.out.println("The sum of 100,200,303 is = "+ sum(100,200,303));
     }
 }
