@@ -27,6 +27,15 @@ public class MethodsCh7 {
         System.out.println("I Am Sufyan" + a);
     }
 
+    //Var args
+static int sum(int ...arr){
+        int result = 0;
+        for (int a : arr){
+            result += a;
+    }
+     return result;
+}
+//
     static void foo(int a, int b){
         System.out.println("Harry son " + a + " years ");
         System.out.println("Harry sister " + b + " years ");
@@ -56,5 +65,8 @@ public class MethodsCh7 {
         foo(12);
         foo(11,22);
       joke();
+
+      //Varargs
+        System.out.println("The sum of 10,20,30 is = "+sum(10,20,30));
     }
 }
