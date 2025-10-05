@@ -11,7 +11,16 @@ class Employe1{
     public void setName(String n){
         name = n;
     }
-}
+    }
+    class CellPhone{
+        public void ring(){
+            System.out.println("Ringing...");
+        }
+        public void vibrate(){
+            System.out.println("Vibrating...");
+        }
+    }
+
 
 
 public class PracticequestionsOOP {
@@ -24,6 +33,11 @@ public class PracticequestionsOOP {
         System.out.println(sufyan.getName());
         System.out.println(sufyan.getSalary());
 
+        //Problem 2
+
+        CellPhone asus = new CellPhone();
+        asus.ring();
+        asus.vibrate();
 
     }
 }
